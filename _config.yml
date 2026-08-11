@@ -8,7 +8,7 @@ minimal_mistakes_skin: "default"
 locale: "en-US"
 title: "Dev Gavande | Engineering Portfolio"
 
-url: "[https://dg2714.github.io](https://dg2714.github.io)"
+url: "https://dg2714.github.io"
 # This builds your left-hand profile sidebar
 author:
   name: "Dev Gavande"
