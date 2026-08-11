@@ -1,0 +1,7 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Robotics & Hardware"
+    url: /robotics/
+  - title: "Computational Research"
+    url: /research/
