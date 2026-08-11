@@ -1,1 +1,26 @@
-theme: jekyll-theme-cayman
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+# You can change "default" to "dark", "contrast", or "mint" later if you want a different color scheme
+minimal_mistakes_skin: "default" 
+
+locale: "en-US"
+title: "Dev Gavande | Engineering Portfolio"
+url: "https://DG2714.github.io"
+
+# This builds your left-hand profile sidebar
+author:
+  name: "Dev Gavande"
+  avatar: "/images/profile.jpg" # Upload a picture of yourself to your images folder and name it profile.jpg
+  bio: "12th-grade engineering student at Wakeland High School. Experienced in competitive robotics, computational biomedical research, and backend website optimization."
+  location: "Frisco, TX"
+
+# This connects your top navigation bar
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
