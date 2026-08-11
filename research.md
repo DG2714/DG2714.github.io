@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Computational Research"
+permalink: /research/
 ---
 
 ## Biomedical Modeling
