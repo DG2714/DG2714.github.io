@@ -1,3 +1,11 @@
+---
+layout: single
+title: "Welcome"
+author_profile: true
+header:
+  overlay_color: "#333"
+---
+
 # Dev Gavande | Engineering Portfolio
 
 Welcome to my portfolio. I am an engineering student with a focus on mechanical design, mechatronics, and computational research. 
