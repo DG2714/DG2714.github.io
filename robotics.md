@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: single
 title: "Robotics & Hardware"
+permalink: /robotics/
 ---
 
 ## Competitive Robotics
