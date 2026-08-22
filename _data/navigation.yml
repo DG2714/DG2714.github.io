@@ -3,5 +3,7 @@ main:
     url: /
   - title: "Robotics & Hardware"
     url: /robotics/
+  - title: "FIRST"
+    url: /first/
   - title: "Computational Research"
     url: /research/
