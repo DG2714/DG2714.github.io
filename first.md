@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Robotics & Hardware"
-permalink: /robotics/
+title: "FIRST"
+permalink: /first/
 ---
 
 ## Competitive Robotics
