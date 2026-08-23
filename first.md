@@ -138,7 +138,7 @@ After finalizing the odometry pods, I observed a significant bottleneck in our s
 
 <div class="feature-section">
   <div class="feature-image">
-    <img src="/images/rotatingv1.JPG" alt="v1 Rotating Claw CAD">
+    <img src="/images/rotatingv1.jpeg" alt="v1 Rotating Claw CAD">
   </div>
   <div class="feature-text">
     <p>I designed a complete rotating arm assembly. The v1 iteration featured a large structural tube, but it proved too bulky. For the final build, I optimized the 3D printed structure, carefully adjusting layer counts and infill percentages to balance weight and durability.</p> 
@@ -148,7 +148,7 @@ After finalizing the odometry pods, I observed a significant bottleneck in our s
 
 <div class="odo-gallery">
   <div class="odo-item">
-    <img src="/images/rotating_claw_only.JPG" alt="Rotating Claw Assembly">
+    <img src="/images/rotating_claw_only.jpeg" alt="Rotating Claw Assembly">
     <div class="odo-caption">Final Assembly</div>
   </div>
   <div class="odo-item" style="grid-column: span 2;">
