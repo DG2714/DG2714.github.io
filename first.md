@@ -87,7 +87,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/centerstage/">
       <div class="ftc-image-wrapper">
-        <img src="/images/centerstage_photo.JPG" alt="2023-2024 CENTERSTAGE">
+        <img src="/images/centerstage_photo.jpeg" alt="2023-2024 CENTERSTAGE">
       </div>
       <div class="ftc-content">
         <h4>2023-2024 CENTERSTAGE</h4>
@@ -113,7 +113,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
-        <img src="/images/fll_photo.JPG" alt="2017-2020 FLL">
+        <img src="/images/fll_photo.jpeg" alt="2017-2020 FLL">
       </div>
       <div class="ftc-content">
         <h4>2017-2020 FLL</h4>
