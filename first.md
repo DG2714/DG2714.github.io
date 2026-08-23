@@ -82,7 +82,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/centerstage/">
       <div class="ftc-image-wrapper">
-        <video src="/images/centerstage_recording.mov" autoplay loop muted playsinline></video>
+        <video src="/images/centerstage_recording.MOV" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2023-2024 CENTERSTAGE</h4>
