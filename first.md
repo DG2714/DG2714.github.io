@@ -3,6 +3,13 @@ layout: single
 title: "FIRST"
 permalink: /first/
 ---
+<div style="text-align: center; max-width: 400px;">
+  <a href="/powerplay/" style="text-decoration: none;">
+    <img src="/images/all_odo_pod_versions.JPG" alt="FTC POWERPLAY">
+    <br>
+    <b>2022-2023 POWERPLAY with FTC Team Area 52, 18227</b>
+  </a>
+</div>
 
 ## Competitive Robotics
 
