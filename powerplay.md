@@ -122,7 +122,7 @@ The initial v1 design was highly complex and relied entirely on commercial off-t
     <p>As we pushed the robot's capabilities and increased the chassis motor RPM gearbox, the odometry pods became vulnerable to high-speed impacts with ground junctions. To protect the delicate tracking hardware, I designed a winch pulley lifting system to retract and shield the pods during aggressive maneuvering.</p>
   </div>
   <div class="feature-image">
-    <img src="/images/odo_lift.jpeg" alt="Winch Pulley Lift CAD">
+    <img src="/images/odo_lift.jpeg" alt="Winch Pulley Lift CAD" style="max-width: 60%; margin: 0 auto; display: block;">
   </div>
 </div>
 
