@@ -7,11 +7,11 @@ classes: wide
 
 <!-- === Custom Style Block === -->
 <style>
-  /* Creates the 2-column grid layout */
+  /* Creates the 3-column grid layout */
   .card-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px; /* Space between the two cards */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px; /* Slightly reduced gap so they fit nicely */
     margin-top: 20px;
   }
 
@@ -32,46 +32,46 @@ classes: wide
   .ftc-card a {
     text-decoration: none;
     color: #333;
-    display: block; /* Makes the entire card clickable */
+    display: block; 
   }
 
-  /* Square Image Formatting */
+  /* Square Image/Video Formatting */
   .ftc-image-wrapper {
     overflow: hidden;
     width: 100%;
     aspect-ratio: 1 / 1;
   }
 
-  .ftc-image-wrapper img {
+  .ftc-image-wrapper img, .ftc-image-wrapper video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
   }
 
-  .ftc-card:hover .ftc-image-wrapper img {
+  .ftc-card:hover .ftc-image-wrapper img, .ftc-card:hover .ftc-image-wrapper video {
     transform: scale(1.1);
   }
 
   /* Text Content Styling */
   .ftc-content {
-    padding: 20px;
+    padding: 15px;
   }
 
   .ftc-card h4 {
     margin: 0 0 5px 0;
     color: #111;
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.1em; /* Scaled down slightly for narrower boxes */
   }
 
   .ftc-subheader {
-    font-size: 1em;
+    font-size: 0.9em; 
     color: #555;
     margin: 0;
   }
 
-  /* Keeps it looking good on mobile phones */
+  /* Keeps it stacked and readable on mobile phones */
   @media (max-width: 768px) {
     .card-grid {
       grid-template-columns: 1fr;
@@ -96,15 +96,28 @@ classes: wide
     </a>
   </div>
 
-  <!-- POWERPLAY Card (Right) -->
+  <!-- POWERPLAY Card (Middle) -->
   <div class="ftc-card">
     <a href="/powerplay/">
       <div class="ftc-image-wrapper">
-        <img src="/images/all_odo_pod_versions.JPG" alt="2022-2023 POWERPLAY">
+        <video src="/images/rotating_claw_final.mov" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2022-2023 POWERPLAY</h4>
         <div class="ftc-subheader">FTC Team Area 52, 18227</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- FLL Card (Right) -->
+  <div class="ftc-card">
+    <a href="/fll/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/fll_photo.JPG" alt="2017-2020 FLL">
+      </div>
+      <div class="ftc-content">
+        <h4>2017-2020 FLL</h4>
+        <div class="ftc-subheader">FLL Team DNA Robotics, 38335</div>
       </div>
     </a>
   </div>
