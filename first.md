@@ -71,11 +71,11 @@ permalink: /first/
 <div class="powerplay-card">
   <a href="/powerplay/">
     <div class="powerplay-image-wrapper">
-      <img src="/images/all_odo_pod_versions.JPG" alt="FTC POWERPLAY with FTC Team Area 52, 18227">
+      <img src="/images/all_odo_pod_versions.JPG" alt="FTC POWERPLAY FTC Team Area 52, 18227">
     </div>
     <div class="powerplay-content">
       <h4>2022-2023 POWERPLAY</h4>
-      <div class="powerplay-subheader">with FTC Team Area 52, 18227</div>
+      <div class="powerplay-subheader">FTC Team Area 52, 18227</div>
     </div>
   </a>
 </div>
