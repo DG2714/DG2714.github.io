@@ -2,82 +2,113 @@
 layout: single
 title: "FIRST"
 permalink: /first/
+classes: wide
 ---
+
 <!-- === Custom Style Block === -->
 <style>
-  /* This creates the clean 'card' container */
-  .powerplay-card {
-    max-width: 320px;
-    margin: 1em auto;
-    border: 1px solid #ddd;   /* The nice clean border */
-    border-radius: 8px;      /* Slightly rounded corners, which look cleaner */
-    overflow: hidden;        /* Keeps the image zoom contained */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    text-align: center;
-    transition: box-shadow 0.3s ease; /* Smoothly changes shadow on hover */
+  /* Creates the 2-column grid layout */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* Space between the two cards */
+    margin-top: 20px;
   }
 
-  /* Increases the card's shadow on hover */
-  .powerplay-card:hover {
+  /* Card styling */
+  .ftc-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .ftc-card:hover {
     box-shadow: 0 8px 15px rgba(0,0,0,0.15);
   }
 
-  .powerplay-card a {
-    text-decoration: none; /* Removes the underline from the link text */
-    color: #333; /* Sets a professional title color */
+  .ftc-card a {
+    text-decoration: none;
+    color: #333;
+    display: block; /* Makes the entire card clickable */
   }
 
-  /* === Controls the Square Image === */
-  .powerplay-image-wrapper {
-    overflow: hidden; /* Crucial for the zoom effect */
+  /* Square Image Formatting */
+  .ftc-image-wrapper {
+    overflow: hidden;
     width: 100%;
-    aspect-ratio: 1 / 1; /* Forces the image container to be a perfect square */
+    aspect-ratio: 1 / 1;
   }
 
-  .powerplay-image-wrapper img {
+  .ftc-image-wrapper img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures image covers the square without stretching */
-    transition: transform 0.3s ease; /* The magic that makes the zoom smooth */
+    object-fit: cover;
+    transition: transform 0.3s ease;
   }
 
-  /* === The Zoom on Hover effect === */
-  .powerplay-card:hover .powerplay-image-wrapper img {
-    transform: scale(1.1); /* Zooms the image in by 10% */
+  .ftc-card:hover .ftc-image-wrapper img {
+    transform: scale(1.1);
   }
 
-  /* Controls the text styling underneath */
-  .powerplay-content {
-    padding: 15px;
+  /* Text Content Styling */
+  .ftc-content {
+    padding: 20px;
   }
 
-  /* Styles for the Main Title */
-  .powerplay-card h4 {
+  .ftc-card h4 {
     margin: 0 0 5px 0;
     color: #111;
     font-weight: 700;
+    font-size: 1.3em;
   }
 
-  /* Styles for the Smaller Subheader */
-  .powerplay-card .powerplay-subheader {
-    font-size: 0.9em;
+  .ftc-subheader {
+    font-size: 1em;
     color: #555;
     margin: 0;
+  }
+
+  /* Keeps it looking good on mobile phones */
+  @media (max-width: 768px) {
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 <!-- === End of Custom Style Block === -->
 
 <!-- === The Visible Card HTML === -->
-<div class="powerplay-card">
-  <a href="/powerplay/">
-    <div class="powerplay-image-wrapper">
-      <img src="/images/all_odo_pod_versions.JPG" alt="FTC POWERPLAY FTC Team Area 52, 18227">
-    </div>
-    <div class="powerplay-content">
-      <h4>2022-2023 POWERPLAY</h4>
-      <div class="powerplay-subheader">FTC Team Area 52, 18227</div>
-    </div>
-  </a>
+<div class="card-grid">
+
+  <!-- CENTERSTAGE Card (Left) -->
+  <div class="ftc-card">
+    <a href="/centerstage/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/centerstage_photo.JPG" alt="2023-2024 CENTERSTAGE">
+      </div>
+      <div class="ftc-content">
+        <h4>2023-2024 CENTERSTAGE</h4>
+        <div class="ftc-subheader">FTC Team Area 52, 18227</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- POWERPLAY Card (Right) -->
+  <div class="ftc-card">
+    <a href="/powerplay/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/all_odo_pod_versions.JPG" alt="2022-2023 POWERPLAY">
+      </div>
+      <div class="ftc-content">
+        <h4>2022-2023 POWERPLAY</h4>
+        <div class="ftc-subheader">FTC Team Area 52, 18227</div>
+      </div>
+    </a>
+  </div>
+
 </div>
 <!-- === End of Visible Card HTML === -->
 
@@ -88,7 +119,7 @@ permalink: /first/
 * Led hardware design and fabrication, guiding the team to qualify for the UIL State Tournament.
 
 **Team 18227 Area 52 | Co-Captain & Design Lead**
-* Served as drive coach and led design initiatives for the World Championship. 
+* Served as drive coach and led design initiatives for the World Championship.
 
 **Team 2714 BBQ | Designer**
 * Rapid-prototyped custom components in preparation for the World Championship tournament.
