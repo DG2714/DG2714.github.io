@@ -110,7 +110,7 @@ The final v3 design was an operable, highly reliable pod. We successfully deploy
 ---
 
 <!-- Outreach Clickable Card -->
-<a href="/outreach/" class="outreach-card">
+<a href="/outreach22/" class="outreach-card">
   <img src="/images/plano2022.JPG" alt="2022 STEM Outreach">
   <div class="outreach-content">
     <h3>Community STEM Outreach</h3>
