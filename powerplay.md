@@ -155,6 +155,22 @@ After finalizing the odometry pods, I observed a significant bottleneck in our s
 
 ---
 
+## Match Strategy & Drive Coaching
+
+Powerplay was my first season stepping into the drive coach role. I was responsible for coordinating match strategy with our alliance partners at every level of play, from early league meets through the State Championship. 
+
+<div class="feature-section">
+  <div class="feature-text">
+    <p>To cut through the noise and chaos on the field, I developed a rapid communication system for our drive team. I mapped the arena and called out alphanumeric codes—such as "C2"—directing the drivers to exact junctions without needing long explanations.</p>
+    <p>My primary focus during matches was reading the field to adjust for defense on the fly. I constantly recalibrated our scoring targets to maximize our chances of securing a "circuit"—a continuous, unbroken path of owned cones connecting one end of the field to the other.</p>
+  </div>
+  <div class="feature-image">
+    <img src="/images/strategy22.jpeg" alt="Field Strategy Map">
+  </div>
+</div>
+
+---
+
 <!-- Outreach Clickable Card -->
 <a href="/outreach22/" class="outreach-card">
   <img src="/images/plano2022.JPG" alt="2022 STEM Outreach">
