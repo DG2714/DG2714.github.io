@@ -172,7 +172,7 @@ Powerplay was my first season stepping into the drive coach role. I was responsi
 ---
 
 <!-- Outreach Clickable Card -->
-<a href="/outreach22/" class="outreach-card">
+<a href="/outreach/" class="outreach-card">
   <img src="/images/plano2022.JPG" alt="2022 STEM Outreach">
   <div class="outreach-content">
     <h3>Community STEM Outreach</h3>
