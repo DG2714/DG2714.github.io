@@ -7,6 +7,7 @@ classes: wide
 
 <!-- === Custom Style Block === -->
 <style>
+  /* Back to the 3-column layout */
   .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,9 +68,13 @@ classes: wide
     margin: 0;
   }
 
+  /* Disables the specific grid placement on mobile so they stack normally */
   @media (max-width: 768px) {
     .card-grid {
       grid-template-columns: 1fr;
+    }
+    .reefscape-card {
+      grid-column: 1 !important; 
     }
   }
 </style>
@@ -78,7 +83,20 @@ classes: wide
 <!-- === The Visible Card HTML === -->
 <div class="card-grid">
 
-  <!-- CENTERSTAGE Card (Left) -->
+  <!-- REEFSCAPE Card (Forced to Top Right, 3/3) -->
+  <div class="ftc-card reefscape-card" style="grid-column: 3;">
+    <a href="/reefscape/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/reefscape_cover.jpg" alt="2025 FRC REEFSCAPE">
+      </div>
+      <div class="ftc-content">
+        <h4>2025 FRC REEFSCAPE</h4>
+        <div class="ftc-subheader">FRC Team 2714 BBQ</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- CENTERSTAGE Card (Row 2, Left) -->
   <div class="ftc-card">
     <a href="/centerstage/">
       <div class="ftc-image-wrapper">
@@ -91,7 +109,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- POWERPLAY Card (Middle) -->
+  <!-- POWERPLAY Card (Row 2, Middle) -->
   <div class="ftc-card">
     <a href="/powerplay/">
       <div class="ftc-image-wrapper">
@@ -104,7 +122,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- FLL Card (Right) -->
+  <!-- FLL Card (Row 2, Right) -->
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
