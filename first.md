@@ -7,7 +7,6 @@ classes: wide
 
 <!-- === Custom Style Block === -->
 <style>
-  /* Back to the 3-column layout */
   .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,13 +67,9 @@ classes: wide
     margin: 0;
   }
 
-  /* Disables the specific grid placement on mobile so they stack normally */
   @media (max-width: 768px) {
     .card-grid {
       grid-template-columns: 1fr;
-    }
-    .reefscape-card {
-      grid-column: 1 !important; 
     }
   }
 </style>
@@ -83,8 +78,34 @@ classes: wide
 <!-- === The Visible Card HTML === -->
 <div class="card-grid">
 
-  <!-- REEFSCAPE Card (Forced to Top Right, 3/3) -->
-  <div class="ftc-card reefscape-card" style="grid-column: 3;">
+  <!-- REBUILT Card (Top Left - Above Centerstage) -->
+  <div class="ftc-card">
+    <a href="/rebuilt/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/rebuilt_cover.jpg" alt="2026 FRC REBUILT">
+      </div>
+      <div class="ftc-content">
+        <h4>2026 FRC REBUILT</h4>
+        <div class="ftc-subheader">FRC Team 2714 BBQ & 2728 TACO</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- DECODE Card (Top Middle - Above Powerplay) -->
+  <div class="ftc-card">
+    <a href="/decode/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/decode_cover.jpg" alt="2025-2026 DECODE">
+      </div>
+      <div class="ftc-content">
+        <h4>2025-2026 DECODE</h4>
+        <div class="ftc-subheader">FTC Team 33791 Wolverine Robotics</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- REEFSCAPE Card (Top Right - Above FLL) -->
+  <div class="ftc-card">
     <a href="/reefscape/">
       <div class="ftc-image-wrapper">
         <img src="/images/reefscape_cover.jpg" alt="2025 FRC REEFSCAPE">
@@ -96,7 +117,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- CENTERSTAGE Card (Row 2, Left) -->
+  <!-- CENTERSTAGE Card (Bottom Left) -->
   <div class="ftc-card">
     <a href="/centerstage/">
       <div class="ftc-image-wrapper">
@@ -109,7 +130,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- POWERPLAY Card (Row 2, Middle) -->
+  <!-- POWERPLAY Card (Bottom Middle) -->
   <div class="ftc-card">
     <a href="/powerplay/">
       <div class="ftc-image-wrapper">
@@ -122,7 +143,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- FLL Card (Row 2, Right) -->
+  <!-- FLL Card (Bottom Right) -->
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
