@@ -7,24 +7,14 @@ classes: wide
 
 <!-- === Custom Style Block === -->
 <style>
-  /* Top Section: 1 Card Left, 1 Text Box Right */
-  .mg-section {
+  .research-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     align-items: stretch;
   }
 
-  /* Bottom Section: 2 Cards Side-by-Side */
-  .secondary-research-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin-bottom: 20px;
-  }
-
-  /* Universal Card Styling */
   .research-card {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -34,7 +24,6 @@ classes: wide
     transition: box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
-    height: 100%;
   }
 
   .research-card:hover {
@@ -52,7 +41,7 @@ classes: wide
   .research-image-wrapper {
     overflow: hidden;
     width: 100%;
-    aspect-ratio: 16 / 9; /* Wider ratio for research cards */
+    aspect-ratio: 16 / 9; 
   }
 
   .research-image-wrapper img {
@@ -68,7 +57,6 @@ classes: wide
 
   .research-content {
     padding: 20px;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,53 +75,48 @@ classes: wide
     margin: 0;
   }
 
-  /* Text Box Styling */
   .info-box {
     background-color: #f9f9f9;
     border-left: 4px solid #005bb5;
-    padding: 25px;
+    padding: 30px;
     border-radius: 0 8px 8px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  
-  .info-box.full-width {
-    border-left: none;
-    border-top: 4px solid #005bb5;
-    border-radius: 8px;
-  }
 
   .info-box h3 {
     margin-top: 0;
     color: #222;
+    font-size: 1.4em;
+    margin-bottom: 15px;
   }
 
   .info-box p {
     color: #444;
     line-height: 1.6;
-    margin-bottom: 0;
+    margin: 0;
   }
 
-  /* Mobile Layout */
   @media (max-width: 850px) {
-    .mg-section, .secondary-research-grid {
+    .research-row {
       grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .research-card {
+      border-radius: 8px 8px 0 0;
     }
     .info-box {
       border-left: none;
       border-top: 4px solid #005bb5;
-      border-radius: 8px;
+      border-radius: 0 0 8px 8px;
     }
   }
 </style>
 <!-- === End of Custom Style Block === -->
 
-
-<!-- === Top Section: MG Research === -->
-<div class="mg-section">
-  
-  <!-- Left Side: MG Card -->
+<!-- === Row 1: MG Research === -->
+<div class="research-row">
   <div class="research-card">
     <a href="/mg-research/">
       <div class="research-image-wrapper">
@@ -145,21 +128,14 @@ classes: wide
       </div>
     </a>
   </div>
-
-  <!-- Right Side: MG Description Box -->
   <div class="info-box">
     <h3>Targeting Acetylcholine Receptors</h3>
-    <p>This project focuses on computational drug design to address Myasthenia Gravis. Operating under a research mentor, I engineered computational nanobody decoys specifically designed to target acetylcholine receptors (AChR). I structured a comprehensive research manuscript detailing this methodology and presented our findings at the American Academy of Neurology Annual Meeting in April 2026.</p>
+    <p>This project focuses on computational drug design to address Myasthenia Gravis. I engineered computational nanobody decoys to specifically target acetylcholine receptors (AChR). Following the modeling phase, I structured a comprehensive research manuscript detailing the methodology and presented our findings at the American Academy of Neurology Annual Meeting in April 2026.</p>
   </div>
-
 </div>
 
-<hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-
-<!-- === Bottom Section: AI & Piezo Research === -->
-<div class="secondary-research-grid">
-
-  <!-- AI Review Card -->
+<!-- === Row 2: AI in Precision Agriculture === -->
+<div class="research-row">
   <div class="research-card">
     <a href="/ai-agriculture/">
       <div class="research-image-wrapper">
@@ -171,8 +147,14 @@ classes: wide
       </div>
     </a>
   </div>
+  <div class="info-box">
+    <h3>Machine Learning in Agriculture</h3>
+    <p>This review paper evaluates the current implementation and future scalability of artificial intelligence within precision agriculture. I analyzed existing literature to identify technological bottlenecks and assess the practical deployment of machine learning models for crop yield optimization and resource management.</p>
+  </div>
+</div>
 
-  <!-- Piezoelectric Lattice Card -->
+<!-- === Row 3: Piezoelectric Lattice === -->
+<div class="research-row">
   <div class="research-card">
     <a href="/piezo-lattice/">
       <div class="research-image-wrapper">
@@ -184,11 +166,27 @@ classes: wide
       </div>
     </a>
   </div>
-
+  <div class="info-box">
+    <h3>ANSYS Mechanical Simulations</h3>
+    <p>I conducted material science research at the University of Texas at Dallas to evaluate the mechanical responses of complex geometries. I utilized ANSYS software to simulate and analyze piezoelectric micro-structures under various stress conditions, gathering data on their structural integrity and electrical output.</p>
+  </div>
 </div>
 
-<!-- Bottom Full-Width Description Box -->
-<div class="info-box full-width">
-  <h3>Secondary Research Initiatives</h3>
-  <p>Beyond drug design, I have expanded my research into agricultural technology and material science. My review paper evaluates the current implementation and future scalability of artificial intelligence within precision agriculture. Concurrently, I conducted research at the University of Texas at Dallas, utilizing ANSYS software to simulate and analyze the mechanical responses of piezoelectric micro-structures.</p>
+<!-- === Row 4: UTD Business Intelligence === -->
+<div class="research-row">
+  <div class="research-card">
+    <a href="/utd-bida/">
+      <div class="research-image-wrapper">
+        <img src="/images/utd_bida_cover.jpg" alt="Business Intelligence and Data Analytics">
+      </div>
+      <div class="research-content">
+        <h4>Business Intelligence and Data Analytics</h4>
+        <div class="research-subheader">University of Texas at Dallas</div>
+      </div>
+    </a>
+  </div>
+  <div class="info-box">
+    <h3>Data-Driven Strategy</h3>
+    <p>This section encompasses my work within the UTD Business Intelligence and Data Analytics program. I focused on extracting actionable insights from large datasets to drive operational efficiency and informed decision-making.</p>
+  </div>
 </div>
