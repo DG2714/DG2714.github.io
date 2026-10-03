@@ -12,7 +12,7 @@ classes: wide
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-bottom: 50px;
-    align-items: stretch;
+    align-items: center; /* Forces the card and text box to center naturally without stretching */
   }
 
   .research-card {
@@ -33,9 +33,7 @@ classes: wide
   .research-card a {
     text-decoration: none;
     color: #333;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    display: block; /* Removed flex forcing to let text sit naturally */
   }
 
   .research-image-wrapper {
@@ -56,10 +54,7 @@ classes: wide
   }
 
   .research-content {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 20px 20px 25px 20px; /* Adjusted padding for a cleaner bottom edge */
   }
 
   .research-card h4 {
@@ -80,9 +75,6 @@ classes: wide
     border-left: 4px solid #005bb5;
     padding: 30px;
     border-radius: 0 8px 8px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .info-box h3 {
@@ -120,7 +112,7 @@ classes: wide
   <div class="research-card">
     <a href="/mg-research/">
       <div class="research-image-wrapper">
-        <img src="/images/mg_research_cover.jpeg" alt="MG Research">
+        <img src="/images/mg_research_cover.jpg" alt="MG Research">
       </div>
       <div class="research-content">
         <h4>Computational Nanobody Decoy Design</h4>
