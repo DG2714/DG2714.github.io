@@ -120,7 +120,7 @@ classes: wide
   <div class="research-card">
     <a href="/mg-research/">
       <div class="research-image-wrapper">
-        <img src="/images/mg_research_cover.jpg" alt="MG Research">
+        <img src="/images/mg_research_cover.jpeg" alt="MG Research">
       </div>
       <div class="research-content">
         <h4>Computational Nanobody Decoy Design</h4>
