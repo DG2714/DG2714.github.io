@@ -1,11 +1,16 @@
 main:
-  - title: "Home"
+  - title: "About"
     url: /
-  - title: "FIRST"
-    url: /first/
-  - title: "Robotics & Hardware"
+    
+  - title: "Robotics ▾"
     url: /robotics/
-  - title: "Computational Research"
+    children:
+      - title: "FIRST"
+        url: /first/
+      - title: "Combat Robotics"
+        url: /combat/
+      - title: "PLTW"
+        url: /pltw/
+        
+  - title: "Research"
     url: /research/
-  - title: "PLTW"
-    url: /pltw/
