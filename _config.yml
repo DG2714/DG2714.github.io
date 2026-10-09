@@ -11,10 +11,10 @@ title: "Dev Gavande | Engineering Portfolio"
 url: "https://dg2714.github.io"
 # This builds your left-hand profile sidebar
 author:
-  name: "Dev Gavande"
-  avatar: "/images/profile.jpg" # Upload a picture of yourself to your images folder and name it profile.jpg
-  bio: "12th-grade engineering student at Wakeland High School. Experienced in competitive robotics, computational biomedical research, and backend website optimization."
-  location: "Frisco, TX"
+  name     : "Dev Gavande"
+  avatar   : "/images/headshot.jpg" 
+  bio      : "12th-grade aspiring mechanical engineer at Wakeland High School. Experienced in competitive robotics, computational biomedical research, leadership, and more!"
+  location : "Frisco, TX"
 
 # This connects your top navigation bar
 defaults:
