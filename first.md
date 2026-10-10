@@ -82,7 +82,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/rebuilt/">
       <div class="ftc-image-wrapper">
-        <img src="/images/rebuilt_cover.jpg" alt="2026 FRC REBUILT">
+        <video src="/images/rebuilt_vid.mov" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2026 FRC REBUILT</h4>
@@ -95,7 +95,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/decode/">
       <div class="ftc-image-wrapper">
-        <img src="/images/decode_cover.jpg" alt="2025-2026 DECODE">
+        <video src="/images/decode_vid.mov" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2025-2026 DECODE</h4>
@@ -108,7 +108,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/reefscape/">
       <div class="ftc-image-wrapper">
-        <img src="/images/reefscape_cover.jpg" alt="2025 FRC REEFSCAPE">
+        <video src="/images/frc_2025_covervid.mov" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2025 FRC REEFSCAPE</h4>
@@ -147,29 +147,5 @@ classes: wide
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
-        <img src="/images/fll_photo.JPG" alt="2017-2020 FLL">
+        <video src="/images/fll_vid.mov" autoplay loop muted playsinline></video>
       </div>
-      <div class="ftc-content">
-        <h4>2017-2020 FLL</h4>
-        <div class="ftc-subheader">FLL Team DNA Robotics, 38335</div>
-      </div>
-    </a>
-  </div>
-
-</div>
-<!-- === End of Visible Card HTML === -->
-
-## Competitive Robotics
-
-**Wolverine Robotics | Founder & Captain**
-* Secured school administration approval and managed the $5,000 Garver grant application.
-* Led hardware design and fabrication, guiding the team to qualify for the UIL State Tournament.
-
-**Team 18227 Area 52 | Co-Captain & Design Lead**
-* Served as drive coach and led design initiatives for the World Championship.
-
-**Team 2714 BBQ | Designer**
-* Rapid-prototyped custom components in preparation for the World Championship tournament.
-
-## Mentorship
-Actively mentored youth robotics Team 2728 and Team 8816 to develop regional capabilities.
