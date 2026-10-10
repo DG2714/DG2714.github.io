@@ -36,20 +36,20 @@ classes: wide
     display: block; 
   }
 
-  .hw-image-wrapper {
+  .hw-image-wrapper img, .hw-image-wrapper video {
     overflow: hidden;
     width: 100%;
     aspect-ratio: 16 / 9; 
   }
 
-  .hw-image-wrapper img {
+  .hw-image-wrapper img, .hw-image-wrapper video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
   }
 
-  .hw-card:hover .hw-image-wrapper img {
+  .hw-card:hover .hw-image-wrapper img, .hw-card:hover .hw-image-wrapper video {
     transform: scale(1.05);
   }
 
@@ -112,7 +112,7 @@ classes: wide
   <div class="hw-card">
     <a href="/first/">
       <div class="hw-image-wrapper">
-        <img src="/images/first_cover.jpg" alt="FIRST Robotics">
+        <video src="/images/shootervid.mov" autoplay loop muted playsinline></video>
       </div>
       <div class="hw-content">
         <h4>FIRST Robotics</h4>
