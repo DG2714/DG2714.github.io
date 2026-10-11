@@ -1,16 +1,9 @@
 main:
-  - title: "About"
+  - title: "Home"
     url: /
-    
-  - title: "Robotics ▾"
+  - title: "About"
+    url: /about/
+  - title: "Robotics"
     url: /robotics/
-    children:
-      - title: "FIRST"
-        url: /first/
-      - title: "Combat Robotics"
-        url: /combat/
-      - title: "PLTW"
-        url: /pltw/
-        
   - title: "Research"
     url: /research/
