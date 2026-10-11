@@ -1,21 +1,45 @@
 ---
 layout: single
-title: "Dev Gavande | Engineering Portfolio"
+title: "Dev Gavande"
+excerpt: "Engineering Portfolio"
+header:
+  overlay_image: /images/header_bg.jpg
+  overlay_color: "#0f2847" # This applies the dark blue tint
+  overlay_filter: "0.75" # 75% opacity to make the white text readable
 permalink: /
 classes: wide
 author_profile: false
 ---
 
-My name is Dev Gavande. I am a high school senior and aspiring mechanical engineer based in Frisco, Texas. My technical experience spans custom hardware fabrication and drivetrain design for competitive robotics, alongside finite element analysis of piezoelectric micro-structures. Independently, I conduct computational structural protein modeling for neurological drug discovery. This portfolio details my ongoing engineering projects and academic research. For a comprehensive overview of my background, please visit my [About Me](/about/) page.
-
 <!-- === Custom Style Block === -->
 <style>
+  /* Force page to expand into the empty sidebar space */
+  .page {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto;
+  }
+  
+  /* Section Headers & Dark Grey Separation Bars */
+  .section-title {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 5px;
+    margin-top: 50px;
+  }
+  
+  .section-divider {
+    border: 0;
+    border-top: 3px solid #333;
+    margin-bottom: 30px;
+  }
+
   /* Quick Links Button Grid */
   .quick-links-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
-    margin-top: 20px;
     margin-bottom: 40px;
   }
 
@@ -36,23 +60,16 @@ My name is Dev Gavande. I am a high school senior and aspiring mechanical engine
     background-color: #e9ecef;
     border-color: #ced4da;
     text-decoration: none;
-    color: #005bb5;
+    color: #0f2847;
   }
 
   /* Featured Projects Row Styling */
-  .featured-section-title {
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 30px;
-    color: #111;
-  }
-
   .featured-row {
     display: grid;
-    grid-template-columns: 1.2fr 1fr; /* Image is slightly wider than text */
+    grid-template-columns: 1.2fr 1fr; 
     gap: 0; 
     margin-bottom: 40px;
-    background-color: #f8f9fa; /* Subtle background box */
+    background-color: #f9f9f9; 
     border: 1px solid #e9ecef;
     border-radius: 8px;
     overflow: hidden;
@@ -62,7 +79,7 @@ My name is Dev Gavande. I am a high school senior and aspiring mechanical engine
     width: 100%;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    border-right: 1px solid #e9ecef; /* Separator line between image and text */
+    border-right: 1px solid #e9ecef; 
   }
 
   .featured-image-wrapper img, .featured-image-wrapper video {
@@ -127,7 +144,12 @@ My name is Dev Gavande. I am a high school senior and aspiring mechanical engine
 </style>
 <!-- === End of Custom Style Block === -->
 
-### Quick Links
+<h2 class="section-title">Background</h2>
+<hr class="section-divider">
+<p>My name is Dev Gavande. I am a high school senior and aspiring mechanical engineer based in Frisco, Texas. My technical experience spans custom hardware fabrication and drivetrain design for competitive robotics, alongside finite element analysis of piezoelectric micro-structures. Independently, I conduct computational structural protein modeling for neurological drug discovery. This portfolio details my ongoing engineering projects and academic research. For a comprehensive overview of my background, please visit my <a href="/about/">About Me</a> page.</p>
+
+<h2 class="section-title">Quick Links</h2>
+<hr class="section-divider">
 <div class="quick-links-grid">
   <a href="/first/" class="quick-link-btn">FIRST Robotics</a>
   <a href="/pltw/" class="quick-link-btn">PLTW Projects</a>
@@ -135,7 +157,8 @@ My name is Dev Gavande. I am a high school senior and aspiring mechanical engine
   <a href="/research/" class="quick-link-btn">College Level Research</a>
 </div>
 
-<h2 class="featured-section-title">Featured Projects</h2>
+<h2 class="section-title">Featured Projects</h2>
+<hr class="section-divider">
 
 <!-- === Featured Project 1: MG Research === -->
 <div class="featured-row">
