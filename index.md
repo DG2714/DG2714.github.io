@@ -199,7 +199,7 @@ author_profile: false
 <!-- === Featured Project 1: MG Research === -->
 <div class="featured-row">
   <div class="featured-image-wrapper">
-    <img src="/images/mg_research_cover.jpg" alt="Myasthenia Gravis Research">
+    <img src="/images/aan_pres.jpg" alt="Myasthenia Gravis Research">
   </div>
   <div class="featured-text">
     <h3>American Academy of Neurology Annual Meeting and Autoimmunology Conference</h3>
