@@ -24,6 +24,13 @@ classes: wide
     gap: 25px; 
     margin-top: 20px;
   }
+  
+  .outreach-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px; 
+    margin-top: 20px;
+  }
 
   .ftc-card {
     border: 1px solid #ddd;
@@ -47,8 +54,13 @@ classes: wide
   .ftc-image-wrapper {
     overflow: hidden;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 16 / 9; /* Changed to landscape for outreach cards to look better in 2 columns, falls back to square for the 3 column grid */
     -webkit-mask-image: -webkit-radial-gradient(white, black);
+  }
+
+  /* Force the season cards back to perfect squares */
+  .card-grid .ftc-image-wrapper {
+    aspect-ratio: 1 / 1;
   }
 
   .ftc-image-wrapper img, .ftc-image-wrapper video {
@@ -81,9 +93,16 @@ classes: wide
     color: #555;
     margin: 0;
   }
+  
+  .section-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #111;
+  }
 
   @media (max-width: 768px) {
-    .card-grid {
+    .card-grid, .outreach-grid {
       grid-template-columns: 1fr;
     }
   }
@@ -94,9 +113,7 @@ classes: wide
 <div class="first-intro">
   <p>For the past ten years, FIRST Robotics has been the defining catalyst of my engineering journey. What began as a childhood fascination with structural stability evolved into a lifelong commitment to mechanical design, strategic problem-solving, and the core philosophy of Gracious Professionalism. Through a decade of hands-on fabrication and rigorous iterative design, FIRST has fundamentally shaped not only the engineer I am today, but the leader I have become.</p>
 
-  <p>My competitive progression deeply mirrors my technical growth. I started by forming my own FIRST LEGO League (FLL) team, learning the foundational logic of programming and assembly. As I advanced into the FIRST Tech Challenge (FTC) and the FIRST Robotics Competition (FRC), the engineering challenges scaled exponentially. I transitioned to engineering custom drivetrains, modeling complex mechanisms in CAD, and managing the rapid prototyping of robust physical assemblies. This dedication culminated in advancing to the FIRST World Championship at the highest levels of both FTC and FRC.</p>
-
-  <p>However, the true impact of FIRST extends far beyond the competition field. Driven to expand access to STEM education within my own community, I founded FTC Team 33791, Wolverine Robotics, at Wakeland High School. Transitioning from a team member to a Founder and Captain allowed me to cultivate a culture of engineering excellence and strategic execution. By actively mentoring junior robotics programs and organizing extensive community outreach initiatives, I strive to pass on the same technical curiosity and collaborative spirit that FIRST originally instilled in me.</p>
+  <p>My competitive progression deeply mirrors my technical growth. I started by forming my own FIRST LEGO League (FLL) team, learning the foundational logic of programming and assembly. As I advanced into the FIRST Tech Challenge (FTC) and the FIRST Robotics Competition (FRC), the engineering challenges scaled exponentially. I transitioned to engineering custom drivetrains, modeling complex mechanisms in CAD, and managing the rapid prototyping of robust physical assemblies. This dedication culminated in advancing to the FIRST World Championship at the highest levels of both FTC and FRC. <strong>Click below to see the technical details of my involvement every season!</strong></p>
 </div>
 <!-- === End of FIRST Introduction === -->
 
@@ -183,3 +200,38 @@ classes: wide
 
 </div>
 <!-- === End of Visible Card HTML === -->
+
+<!-- === Outreach Section === -->
+<div class="first-intro" style="margin-top: 60px;">
+  <h2 class="section-title">Community Outreach</h2>
+  <p>However, the true impact of FIRST extends far beyond the competition field. Driven to expand access to STEM education within my own community, I founded FTC Team 33791, Wolverine Robotics, at Wakeland High School. Transitioning from a team member to a Founder and Captain allowed me to cultivate a culture of engineering excellence and strategic execution. By actively mentoring junior robotics programs and organizing extensive community outreach initiatives, I strive to pass on the same technical curiosity and collaborative spirit that FIRST originally instilled in me.</p>
+</div>
+
+<div class="outreach-grid">
+  <!-- Early Outreach Card -->
+  <div class="ftc-card">
+    <a href="/outreach/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/outreach_early.jpg" alt="2017-2022 Outreach">
+      </div>
+      <div class="ftc-content">
+        <h4>2017-2022 Outreach</h4>
+        <div class="ftc-subheader">Elementary & Middle School Years</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- High School Outreach Card -->
+  <div class="ftc-card">
+    <a href="/highoutreach/">
+      <div class="ftc-image-wrapper">
+        <img src="/images/outreach_high.jpg" alt="2023-2027 Outreach">
+      </div>
+      <div class="ftc-content">
+        <h4>2023-2027 Outreach</h4>
+        <div class="ftc-subheader">High School Years</div>
+      </div>
+    </a>
+  </div>
+</div>
+<!-- === End of Outreach Section === -->
