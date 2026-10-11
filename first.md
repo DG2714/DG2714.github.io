@@ -134,7 +134,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/powerplay/">
       <div class="ftc-image-wrapper">
-        <video src="/images/rotating_claw_final.mov" autoplay loop muted playsinline></video>
+        <video src="/images/rotating_claw_final.mp4" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2022-2023 POWERPLAY</h4>
