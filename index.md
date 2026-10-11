@@ -3,20 +3,43 @@ layout: single
 title: "Dev Gavande | Engineering Portfolio"
 permalink: /
 classes: wide
+author_profile: false
 ---
 
-My name is Dev Gavande, and I am an aspiring mechanical engineer dedicated to bridging physical hardware fabrication with advanced computational modeling. My technical background spans custom drivetrain design for competitive robotics, finite element analysis of piezoelectric structures, and structural protein modeling for neurological drug discovery. For a comprehensive overview of my background and academic trajectory, please visit my [About Me](/about/) page.
+My name is Dev Gavande. I am a high school senior and aspiring mechanical engineer based in Frisco, Texas. My technical experience spans custom hardware fabrication and drivetrain design for competitive robotics, alongside finite element analysis of piezoelectric micro-structures. Independently, I conduct computational structural protein modeling for neurological drug discovery. This portfolio details my ongoing engineering projects and academic research. For a comprehensive overview of my background, please visit my [About Me](/about/) page.
 
-### Quick Links
-* [FIRST Robotics](/first/)
-* [PLTW Projects](/pltw/)
-* [Combat Robotics](/combat/)
-* [College Level Research](/research/)
-
-<hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-
-<!-- === Custom Style Block for Featured Projects === -->
+<!-- === Custom Style Block === -->
 <style>
+  /* Quick Links Button Grid */
+  .quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .quick-link-btn {
+    display: block;
+    text-align: center;
+    padding: 12px 10px;
+    background-color: #f1f3f5;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    transition: all 0.2s ease;
+  }
+
+  .quick-link-btn:hover {
+    background-color: #e9ecef;
+    border-color: #ced4da;
+    text-decoration: none;
+    color: #005bb5;
+  }
+
+  /* Featured Projects Row Styling */
   .featured-section-title {
     font-size: 2em;
     font-weight: 700;
@@ -26,18 +49,20 @@ My name is Dev Gavande, and I am an aspiring mechanical engineer dedicated to br
 
   .featured-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 60px;
-    align-items: flex-start;
+    grid-template-columns: 1.2fr 1fr; /* Image is slightly wider than text */
+    gap: 0; 
+    margin-bottom: 40px;
+    background-color: #f8f9fa; /* Subtle background box */
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
   }
 
   .featured-image-wrapper {
     width: 100%;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-right: 1px solid #e9ecef; /* Separator line between image and text */
   }
 
   .featured-image-wrapper img, .featured-image-wrapper video {
@@ -47,15 +72,16 @@ My name is Dev Gavande, and I am an aspiring mechanical engineer dedicated to br
   }
 
   .featured-text {
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .featured-text h3 {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #222;
     line-height: 1.3;
   }
@@ -70,10 +96,10 @@ My name is Dev Gavande, and I am an aspiring mechanical engineer dedicated to br
     align-self: flex-start;
     display: inline-block;
     padding: 8px 16px;
-    background-color: #f8f9fa;
+    background-color: #fff;
     color: #333;
     text-decoration: none;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 4px;
     font-weight: 600;
     font-size: 0.9em;
@@ -81,19 +107,33 @@ My name is Dev Gavande, and I am an aspiring mechanical engineer dedicated to br
   }
 
   .read-more-btn:hover {
-    background-color: #e2e6ea;
+    background-color: #f1f3f5;
     text-decoration: none;
     color: #111;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 900px) {
     .featured-row {
       grid-template-columns: 1fr;
-      gap: 20px;
+    }
+    .featured-image-wrapper {
+      border-right: none;
+      border-bottom: 1px solid #e9ecef;
+    }
+    .quick-links-grid {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 </style>
 <!-- === End of Custom Style Block === -->
+
+### Quick Links
+<div class="quick-links-grid">
+  <a href="/first/" class="quick-link-btn">FIRST Robotics</a>
+  <a href="/pltw/" class="quick-link-btn">PLTW Projects</a>
+  <a href="/combat/" class="quick-link-btn">Combat Robotics</a>
+  <a href="/research/" class="quick-link-btn">College Level Research</a>
+</div>
 
 <h2 class="featured-section-title">Featured Projects</h2>
 
