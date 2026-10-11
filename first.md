@@ -108,7 +108,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/reefscape/">
       <div class="ftc-image-wrapper">
-        <video src="/images/frc_2025_covervid.mov" autoplay loop muted playsinline></video>
+        <video src="/images/frc_2025_covervid.mp4" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2025 FRC REEFSCAPE</h4>
