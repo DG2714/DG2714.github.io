@@ -43,7 +43,7 @@ author_profile: false
 
   /* Section Headers & Dividers - Font reduced 25%, massive pull-up applied */
   .section-title {
-    font-size: 1.65em !important; /* Reduced 25% from 2.2em */
+    font-size: 1.65em !important; 
     font-weight: 700;
     color: #111;
     margin-top: 15px !important; 
@@ -52,7 +52,7 @@ author_profile: false
   }
   
   .section-title.first-title {
-    margin-top: -30px !important; /* Physically pulls text up to delete the remaining gap */
+    margin-top: -30px !important; 
   }
   
   .section-divider {
@@ -89,7 +89,7 @@ author_profile: false
     border-radius: 6px;
     border: 1px solid #dee2e6;
     transition: all 0.2s ease;
-    font-size: 1rem !important; /* Protected from the 15% text reduction */
+    font-size: 1rem !important; 
   }
 
   .quick-link-btn:hover {
@@ -134,7 +134,7 @@ author_profile: false
   .featured-text h3 {
     margin-top: 0;
     margin-bottom: 12px;
-    font-size: 1.15em !important; /* Reduced 15% from 1.4em */
+    font-size: 1.15em !important; 
     color: #222;
     line-height: 1.3;
   }
@@ -211,7 +211,7 @@ author_profile: false
 <!-- === Featured Project 2: REBUILT === -->
 <div class="featured-row">
   <div class="featured-image-wrapper">
-    <video src="/images/rebuilt_vid.mp4" loop muted playsinline></video>
+    <video src="/images/rebuilt_vid.mp4" autoplay loop muted playsinline></video>
   </div>
   <div class="featured-text">
     <h3>FIRST Robotics Competition: 2026 REBUILT Season</h3>
@@ -235,7 +235,7 @@ author_profile: false
 <!-- === Featured Project 4: DECODE === -->
 <div class="featured-row">
   <div class="featured-image-wrapper">
-    <video src="/images/decode_vid.mp4" loop muted playsinline></video>
+    <video src="/images/decode_home_vid.mp4" autoplay loop muted playsinline></video>
   </div>
   <div class="featured-text">
     <h3>FIRST Tech Challenge: 2025 DECODE Season</h3>
@@ -243,17 +243,3 @@ author_profile: false
     <a href="/decode/" class="read-more-btn">Read More</a>
   </div>
 </div>
-
-<!-- === Hover-to-Play Script for Featured Videos === -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const rows = document.querySelectorAll('.featured-row');
-    rows.forEach(row => {
-      const vid = row.querySelector('video');
-      if (vid) {
-        row.addEventListener('mouseenter', () => vid.play());
-        row.addEventListener('mouseleave', () => vid.pause());
-      }
-    });
-  });
-</script>
