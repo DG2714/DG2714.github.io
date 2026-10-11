@@ -20,7 +20,7 @@ author_profile: false
     min-height: auto !important;
   }
 
-  /* Expand width and kill default theme padding below banner */
+  /* Expand width and AGGRESSIVELY kill default theme padding below banner */
   .page {
     width: 100% !important;
     max-width: 1200px !important;
@@ -29,15 +29,21 @@ author_profile: false
   
   #main {
     padding-top: 0 !important;
+    margin-top: 0 !important;
   }
   
   .page__inner-wrap {
-    padding-top: 15px !important; 
+    padding-top: 0 !important; 
+    margin-top: 0 !important;
   }
 
-  /* Section Headers & Dividers - AGGRESSIVELY REDUCED GAPS */
+  .page__content {
+    margin-top: 0 !important;
+  }
+
+  /* Section Headers & Dividers - Font reduced 25%, massive pull-up applied */
   .section-title {
-    font-size: 2.2em;
+    font-size: 1.65em !important; /* Reduced 25% from 2.2em */
     font-weight: 700;
     color: #111;
     margin-top: 15px !important; 
@@ -46,7 +52,7 @@ author_profile: false
   }
   
   .section-title.first-title {
-    margin-top: 0 !important; 
+    margin-top: -30px !important; /* Physically pulls text up to delete the remaining gap */
   }
   
   .section-divider {
@@ -56,13 +62,14 @@ author_profile: false
     margin-bottom: 8px !important; 
   }
 
-  /* Tighten default paragraph spacing */
+  /* Reduce general paragraph text size by 15% */
   p {
+    font-size: 0.85em !important; 
     margin-top: 0 !important;
     margin-bottom: 10px !important; 
   }
 
-  /* Quick Links Button Grid */
+  /* Quick Links Button Grid - Maintained normal size */
   .quick-links-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -82,6 +89,7 @@ author_profile: false
     border-radius: 6px;
     border: 1px solid #dee2e6;
     transition: all 0.2s ease;
+    font-size: 1rem !important; /* Protected from the 15% text reduction */
   }
 
   .quick-link-btn:hover {
@@ -126,7 +134,7 @@ author_profile: false
   .featured-text h3 {
     margin-top: 0;
     margin-bottom: 12px;
-    font-size: 1.4em;
+    font-size: 1.15em !important; /* Reduced 15% from 1.4em */
     color: #222;
     line-height: 1.3;
   }
@@ -147,7 +155,7 @@ author_profile: false
     border: 1px solid #ccc;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 0.8em !important; 
     transition: all 0.2s ease;
   }
 
