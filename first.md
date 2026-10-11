@@ -148,7 +148,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
-        <video src="/images/fll_video.mp4" autoplay loop muted playsinline></video>
+        <video src="/images/fll_vid.mp4" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2017-2020 FLL</h4>
