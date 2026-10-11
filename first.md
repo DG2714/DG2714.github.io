@@ -82,7 +82,7 @@ classes: wide
 <!-- === The Visible Card HTML === -->
 <div class="card-grid">
 
-  <!-- REBUILT Card (Video 1) -->
+  <!-- REBUILT Card (FRC 26 - MP4) -->
   <div class="ftc-card">
     <a href="/rebuilt/">
       <div class="ftc-image-wrapper">
@@ -95,7 +95,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- DECODE Card (Animated WebP Image) -->
+  <!-- DECODE Card (FTC 25-26 - WebP Image) -->
   <div class="ftc-card">
     <a href="/decode/">
       <div class="ftc-image-wrapper">
@@ -108,7 +108,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- REEFSCAPE Card (Video 2) -->
+  <!-- REEFSCAPE Card (FRC 25 - MP4) -->
   <div class="ftc-card">
     <a href="/reefscape/">
       <div class="ftc-image-wrapper">
@@ -121,11 +121,11 @@ classes: wide
     </a>
   </div>
 
-  <!-- CENTERSTAGE Card (Video 3) -->
+  <!-- CENTERSTAGE Card (FTC 23-24 - WebP Image) -->
   <div class="ftc-card">
     <a href="/centerstage/">
       <div class="ftc-image-wrapper">
-        <video src="/images/centerstage_recording.mp4" autoplay loop muted playsinline></video>
+        <img src="/images/centerstage_recording.webp" alt="2023-2024 CENTERSTAGE">
       </div>
       <div class="ftc-content">
         <h4>2023-2024 CENTERSTAGE</h4>
@@ -134,7 +134,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- POWERPLAY Card (Video 4) -->
+  <!-- POWERPLAY Card (FTC 22-23 - MP4) -->
   <div class="ftc-card">
     <a href="/powerplay/">
       <div class="ftc-image-wrapper">
@@ -147,8 +147,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- FLL Card (Animated WebP Image) -->
-<!-- FLL Card -->
+  <!-- FLL Card (FLL - MP4) -->
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
@@ -160,6 +159,8 @@ classes: wide
       </div>
     </a>
   </div>
+
+</div>
 <!-- === End of Visible Card HTML === -->
 
 ## Competitive Robotics
