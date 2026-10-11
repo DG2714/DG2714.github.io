@@ -144,8 +144,15 @@ classes: wide
   </div>
 
   <!-- FLL Card (Bottom Right) -->
+  <!-- FLL Card (Bottom Right) -->
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
-        <video src="/images/fll_vid.mov" autoplay loop muted playsinline></video>
+        <video src="/images/fll_video.mp4" autoplay loop muted playsinline></video>
       </div>
+      <div class="ftc-content">
+        <h4>2017-2020 FLL</h4>
+        <div class="ftc-subheader">FLL Team DNA Robotics, 38335</div>
+      </div>
+    </a>
+  </div>
