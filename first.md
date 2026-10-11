@@ -37,7 +37,6 @@ classes: wide
     overflow: hidden;
     width: 100%;
     aspect-ratio: 1 / 1;
-    /* Prevents edge bleeding during hardware accelerated zoom */
     -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
 
@@ -46,7 +45,6 @@ classes: wide
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
-    /* Force GPU to render the video on a separate hardware layer to prevent hover freezing */
     will-change: transform;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -84,7 +82,7 @@ classes: wide
 <!-- === The Visible Card HTML === -->
 <div class="card-grid">
 
-  <!-- REBUILT Card -->
+  <!-- REBUILT Card (Video 1) -->
   <div class="ftc-card">
     <a href="/rebuilt/">
       <div class="ftc-image-wrapper">
@@ -97,11 +95,11 @@ classes: wide
     </a>
   </div>
 
-  <!-- DECODE Card -->
+  <!-- DECODE Card (Animated WebP Image) -->
   <div class="ftc-card">
     <a href="/decode/">
       <div class="ftc-image-wrapper">
-        <video src="/images/decode_cover.mp4" autoplay loop muted playsinline></video>
+        <img src="/images/decode_cover.webp" alt="2025-2026 DECODE">
       </div>
       <div class="ftc-content">
         <h4>2025-2026 DECODE</h4>
@@ -110,7 +108,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- REEFSCAPE Card -->
+  <!-- REEFSCAPE Card (Video 2) -->
   <div class="ftc-card">
     <a href="/reefscape/">
       <div class="ftc-image-wrapper">
@@ -123,7 +121,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- CENTERSTAGE Card -->
+  <!-- CENTERSTAGE Card (Video 3) -->
   <div class="ftc-card">
     <a href="/centerstage/">
       <div class="ftc-image-wrapper">
@@ -136,7 +134,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- POWERPLAY Card -->
+  <!-- POWERPLAY Card (Video 4) -->
   <div class="ftc-card">
     <a href="/powerplay/">
       <div class="ftc-image-wrapper">
@@ -149,7 +147,8 @@ classes: wide
     </a>
   </div>
 
-  <!-- FLL Card -->
+  <!-- FLL Card (Animated WebP Image) -->
+<!-- FLL Card -->
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
@@ -161,8 +160,6 @@ classes: wide
       </div>
     </a>
   </div>
-
-</div>
 <!-- === End of Visible Card HTML === -->
 
 ## Competitive Robotics
