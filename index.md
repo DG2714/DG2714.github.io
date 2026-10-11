@@ -235,7 +235,7 @@ author_profile: false
 <!-- === Featured Project 4: DECODE === -->
 <div class="featured-row">
   <div class="featured-image-wrapper">
-    <video src="/images/decode_home_vid.mp4" autoplay loop muted playsinline></video>
+    <img src="/images/decode_home_cover.jpg" alt="FTC 2025 DECODE Season">
   </div>
   <div class="featured-text">
     <h3>FIRST Tech Challenge: 2025 DECODE Season</h3>
