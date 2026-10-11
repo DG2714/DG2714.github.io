@@ -95,7 +95,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/decode/">
       <div class="ftc-image-wrapper">
-        <video src="/images/decode_vid.mov" autoplay loop muted playsinline></video>
+        <video src="/images/decode_cover.mov" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2025-2026 DECODE</h4>
