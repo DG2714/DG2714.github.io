@@ -4,8 +4,8 @@ title: "Dev Gavande"
 excerpt: "Engineering Portfolio"
 header:
   overlay_image: /images/header_bg.jpg
-  overlay_color: "#0f2847" # This applies the dark blue tint
-  overlay_filter: "0.75" # 75% opacity to make the white text readable
+  overlay_color: "#0f2847" 
+  overlay_filter: "0.75" 
 permalink: /
 classes: wide
 author_profile: false
@@ -13,26 +13,53 @@ author_profile: false
 
 <!-- === Custom Style Block === -->
 <style>
-  /* Force page to expand into the empty sidebar space */
+  /* Force banner to be 25% thinner */
+  .page__hero--overlay {
+    padding-top: 2.5em !important;
+    padding-bottom: 2.5em !important;
+    min-height: auto !important;
+  }
+
+  /* Expand width and kill default theme padding below banner */
   .page {
     width: 100% !important;
     max-width: 1200px !important;
     margin: 0 auto;
   }
   
-  /* Section Headers & Dark Grey Separation Bars */
+  #main {
+    padding-top: 0 !important;
+  }
+  
+  .page__inner-wrap {
+    padding-top: 15px !important; 
+  }
+
+  /* Section Headers & Dividers - AGGRESSIVELY REDUCED GAPS */
   .section-title {
     font-size: 2.2em;
     font-weight: 700;
     color: #111;
-    margin-bottom: 5px;
-    margin-top: 50px;
+    margin-top: 15px !important; 
+    margin-bottom: 2px !important; 
+    line-height: 1.1;
+  }
+  
+  .section-title.first-title {
+    margin-top: 0 !important; 
   }
   
   .section-divider {
     border: 0;
     border-top: 3px solid #333;
-    margin-bottom: 30px;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important; 
+  }
+
+  /* Tighten default paragraph spacing */
+  p {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important; 
   }
 
   /* Quick Links Button Grid */
@@ -40,7 +67,8 @@ author_profile: false
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
-    margin-bottom: 40px;
+    margin-top: 5px;
+    margin-bottom: 25px; 
   }
 
   .quick-link-btn {
@@ -68,7 +96,7 @@ author_profile: false
     display: grid;
     grid-template-columns: 1.2fr 1fr; 
     gap: 0; 
-    margin-bottom: 40px;
+    margin-bottom: 25px; 
     background-color: #f9f9f9; 
     border: 1px solid #e9ecef;
     border-radius: 8px;
@@ -89,7 +117,7 @@ author_profile: false
   }
 
   .featured-text {
-    padding: 30px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +125,7 @@ author_profile: false
 
   .featured-text h3 {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     font-size: 1.4em;
     color: #222;
     line-height: 1.3;
@@ -106,7 +134,7 @@ author_profile: false
   .featured-text p {
     color: #444;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 15px !important;
   }
 
   .read-more-btn {
@@ -144,7 +172,7 @@ author_profile: false
 </style>
 <!-- === End of Custom Style Block === -->
 
-<h2 class="section-title">Background</h2>
+<h2 class="section-title first-title">Background</h2>
 <hr class="section-divider">
 <p>My name is Dev Gavande. I am a high school senior and aspiring mechanical engineer based in Frisco, Texas. My technical experience spans custom hardware fabrication and drivetrain design for competitive robotics, alongside finite element analysis of piezoelectric micro-structures. Independently, I conduct computational structural protein modeling for neurological drug discovery. This portfolio details my ongoing engineering projects and academic research. For a comprehensive overview of my background, please visit my <a href="/about/">About Me</a> page.</p>
 
