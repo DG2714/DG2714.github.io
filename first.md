@@ -37,6 +37,8 @@ classes: wide
     overflow: hidden;
     width: 100%;
     aspect-ratio: 1 / 1;
+    /* Prevents edge bleeding during hardware accelerated zoom */
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
 
   .ftc-image-wrapper img, .ftc-image-wrapper video {
@@ -44,10 +46,14 @@ classes: wide
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    /* Force GPU to render the video on a separate hardware layer to prevent hover freezing */
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
   }
 
   .ftc-card:hover .ftc-image-wrapper img, .ftc-card:hover .ftc-image-wrapper video {
-    transform: scale(1.1);
+    transform: scale(1.1) translateZ(0);
   }
 
   .ftc-content {
@@ -78,7 +84,7 @@ classes: wide
 <!-- === The Visible Card HTML === -->
 <div class="card-grid">
 
-  <!-- REBUILT Card (Top Left - Above Centerstage) -->
+  <!-- REBUILT Card -->
   <div class="ftc-card">
     <a href="/rebuilt/">
       <div class="ftc-image-wrapper">
@@ -91,7 +97,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- DECODE Card (Top Middle - Above Powerplay) -->
+  <!-- DECODE Card -->
   <div class="ftc-card">
     <a href="/decode/">
       <div class="ftc-image-wrapper">
@@ -104,7 +110,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- REEFSCAPE Card (Top Right - Above FLL) -->
+  <!-- REEFSCAPE Card -->
   <div class="ftc-card">
     <a href="/reefscape/">
       <div class="ftc-image-wrapper">
@@ -117,7 +123,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- CENTERSTAGE Card (Bottom Left) -->
+  <!-- CENTERSTAGE Card -->
   <div class="ftc-card">
     <a href="/centerstage/">
       <div class="ftc-image-wrapper">
@@ -130,7 +136,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- POWERPLAY Card (Bottom Middle) -->
+  <!-- POWERPLAY Card -->
   <div class="ftc-card">
     <a href="/powerplay/">
       <div class="ftc-image-wrapper">
@@ -143,8 +149,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- FLL Card (Bottom Right) -->
-  <!-- FLL Card (Bottom Right) -->
+  <!-- FLL Card -->
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
@@ -156,3 +161,21 @@ classes: wide
       </div>
     </a>
   </div>
+
+</div>
+<!-- === End of Visible Card HTML === -->
+
+## Competitive Robotics
+
+**Wolverine Robotics | Founder & Captain**
+- Secured school administration approval and managed the $5,000 Garver grant application.
+- Led hardware design and fabrication, guiding the team to qualify for the UIL State Tournament.
+
+**Team 18227 Area 52 | Co-Captain & Design Lead**
+- Served as drive coach and led design initiatives for the World Championship.
+
+**Team 2714 BBQ | Designer**
+- Rapid-prototyped custom components in preparation for the World Championship tournament.
+
+## Mentorship
+Actively mentored youth robotics Team 2728 and Team 8816 to develop regional capabilities.
