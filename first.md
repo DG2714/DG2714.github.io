@@ -7,6 +7,17 @@ classes: wide
 
 <!-- === Custom Style Block === -->
 <style>
+  .first-intro {
+    font-size: 1.05em;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 40px;
+  }
+
+  .first-intro p {
+    margin-bottom: 20px;
+  }
+
   .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -79,6 +90,16 @@ classes: wide
 </style>
 <!-- === End of Custom Style Block === -->
 
+<!-- === FIRST Introduction === -->
+<div class="first-intro">
+  <p>For the past ten years, FIRST Robotics has been the defining catalyst of my engineering journey. What began as a childhood fascination with structural stability evolved into a lifelong commitment to mechanical design, strategic problem-solving, and the core philosophy of Gracious Professionalism. Through a decade of hands-on fabrication and rigorous iterative design, FIRST has fundamentally shaped not only the engineer I am today, but the leader I have become.</p>
+
+  <p>My competitive progression deeply mirrors my technical growth. I started by forming my own FIRST LEGO League (FLL) team, learning the foundational logic of programming and assembly. As I advanced into the FIRST Tech Challenge (FTC) and the FIRST Robotics Competition (FRC), the engineering challenges scaled exponentially. I transitioned to engineering custom drivetrains, modeling complex mechanisms in CAD, and managing the rapid prototyping of robust physical assemblies. This dedication culminated in advancing to the FIRST World Championship at the highest levels of both FTC and FRC.</p>
+
+  <p>However, the true impact of FIRST extends far beyond the competition field. Driven to expand access to STEM education within my own community, I founded FTC Team 33791, Wolverine Robotics, at Wakeland High School. Transitioning from a team member to a Founder and Captain allowed me to cultivate a culture of engineering excellence and strategic execution. By actively mentoring junior robotics programs and organizing extensive community outreach initiatives, I strive to pass on the same technical curiosity and collaborative spirit that FIRST originally instilled in me.</p>
+</div>
+<!-- === End of FIRST Introduction === -->
+
 <!-- === The Visible Card HTML === -->
 <div class="card-grid">
 
@@ -147,7 +168,7 @@ classes: wide
     </a>
   </div>
 
-  <!-- FLL Card (Animated WebP Image) -->
+  <!-- FLL Card (FLL - WebP Image) -->
   <div class="ftc-card">
     <a href="/fll/">
       <div class="ftc-image-wrapper">
@@ -162,18 +183,3 @@ classes: wide
 
 </div>
 <!-- === End of Visible Card HTML === -->
-
-## Competitive Robotics
-
-**Wolverine Robotics | Founder & Captain**
-- Secured school administration approval and managed the $5,000 Garver grant application.
-- Led hardware design and fabrication, guiding the team to qualify for the UIL State Tournament.
-
-**Team 18227 Area 52 | Co-Captain & Design Lead**
-- Served as drive coach and led design initiatives for the World Championship.
-
-**Team 2714 BBQ | Designer**
-- Rapid-prototyped custom components in preparation for the World Championship tournament.
-
-## Mentorship
-Actively mentored youth robotics Team 2728 and Team 8816 to develop regional capabilities.
