@@ -82,7 +82,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/rebuilt/">
       <div class="ftc-image-wrapper">
-        <video src="/images/rebuilt_vid.mov" style="width: 180%; max-width: none; margin-left: -40%;" autoplay loop muted playsinline></video>
+        <video src="/images/rebuilt_vid.mp4" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2026 FRC REBUILT</h4>
@@ -95,7 +95,7 @@ classes: wide
   <div class="ftc-card">
     <a href="/decode/">
       <div class="ftc-image-wrapper">
-        <video src="/images/decode_cover.mov" autoplay loop muted playsinline></video>
+        <video src="/images/decode_cover.mp4" autoplay loop muted playsinline></video>
       </div>
       <div class="ftc-content">
         <h4>2025-2026 DECODE</h4>
